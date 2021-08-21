@@ -16,18 +16,22 @@ body{
     background-repeat: no-repeat;
     font-family: myFirstFont;
 }
+
+.Title{
+    display: grid;
+}
+
 .grid-container1{
  display: grid;
  grid-template-columns: auto auto auto auto;
 }
-.grid-container2{
-    display: grid;
-}
 
 .Contact_Form{
     background-color: var(--chunks);
-    
     border: 2px solid white;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     
 }
 
@@ -37,6 +41,9 @@ body{
     border: 2px solid white;
     margin: 20px;
     text-align: center;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .Technical_Proficiency{
     background-color: var(--chunks);
@@ -44,6 +51,9 @@ body{
     border: 2px solid white;
     margin: 20px;
     text-align: center;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .Military_Service{
@@ -52,6 +62,9 @@ body{
     border: 2px solid white;
     margin: 20px;
     text-align: center;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .Experience{
     background-color: var(--chunks);
@@ -59,6 +72,9 @@ body{
     border: 2px solid white;
     margin: 20px;
     text-align: center;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 h1{
@@ -67,4 +83,12 @@ h1{
 }
 h2{
     text-align: center;
+}
+
+
+
+@keyframes animation{
+    0% {background-color: var(--yellow); }
+    50% {background-color: var(--chunks);}
+    100% {background-color: var(--yellow); }
 }
