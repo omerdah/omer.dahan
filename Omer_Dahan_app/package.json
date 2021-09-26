@@ -1,14 +1,23 @@
 {
-  "name": "omer_dahan_app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "omer-dahan-app",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.0",
+    "pug": "2.0.0-beta11"
+  },
+  "main": "app.js",
+  "devDependencies": {},
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "description": ""
 }
